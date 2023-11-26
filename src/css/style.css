@@ -1,0 +1,94 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #a9a9a9;
+}
+
+.heading {
+    text-align: center;
+    line-height: 0.5rem;
+}
+
+h1 {
+    font-size: 3.5rem;
+}
+
+.disclaimer {
+    font-weight: 200;
+    font-size: 0.5rem;
+}
+
+.board {
+    width: 40%;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.col {
+    width: calc(100%/8);
+    aspect-ratio: 1;
+}
+
+.dark {
+    background-color: brown;
+}
+
+.white {
+    background-color: beige;
+}
+
+.navigation {
+    text-align: center;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.list-item {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+    font-size: 1.25rem;
+    background-color: red;
+    padding: 0.5rem 1rem;
+    border-radius: 100px;
+    color: #fff;
+}
+
+.unavailable {
+    opacity: 0.5;
+    cursor: default;
+}
+
+.captured-material {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.captures {
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+    margin: 0 auto;
+}
+
+.captured-white-pieces,
+.captured-black-pieces {
+    display: flex;
+}
