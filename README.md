@@ -9,8 +9,11 @@ This will end up being a chess game, including local multiplayer and a bare basi
 - [Chess](#chess)
     - [Contents](#contents)
     - [Current Features](#current-features)
-    - [Future Features](#future-features)
         - [Menu](#menu)
+        - [Gamemodes](#gamemodes)
+            - [Multiplayer](#multiplayer)
+    - [Future Features](#future-features)
+        - [Menu](#menu-1)
         - [Pieces](#pieces)
             - [Pawn](#pawn)
             - [Bishop](#bishop)
@@ -33,9 +36,9 @@ This will end up being a chess game, including local multiplayer and a bare basi
                 - [50 Move Rule](#50-move-rule)
                 - [3 Fold Repitition](#3-fold-repitition)
                 - [Mutual Draw](#mutual-draw)
-        - [Gamemodes](#gamemodes)
+        - [Gamemodes](#gamemodes-1)
             - [Solo Play](#solo-play)
-            - [Multiplayer](#multiplayer)
+            - [Multiplayer](#multiplayer-1)
             - [Practice Play](#practice-play)
     - [Bugs](/BUGS.md)
         - [Current Bugs](/BUGS.md#current-bugs)
@@ -47,7 +50,28 @@ This will end up being a chess game, including local multiplayer and a bare basi
 
 This section will be filled with features as features get added
 
+### Menu
+
+The menu has been started, but currently only links to local multiplayer.
+
+[Back to Contents](#contents)
+
 ---
+
+### Gamemodes
+
+This section contains all the gamemodes that have been implemented, or are currently in the works.
+
+#### Multiplayer
+
+The Multiplayer gamemode is currently being implemented, and currently only contains a blank chessboard, with the current captures for the black and white pieces, also being empty. For the first iteration of this gamemode, when completed, it'll be local multiplayer only, and will be that way until after solo play has been implemented. 
+
+Once I start making progress on an online multiplayer feature, this page will end up having the user pick between local or online multiplayer, with local multiplayer being on a single screen, being passed between 2 players, and online multiplayer being able to be played against anyone around the world. 
+
+It's worth noting, that online multiplayer is an idea for the distant future, as there are other higher priorities for this game before this.
+
+[Back to Gamemodes](#gamemodes)  
+[Back to Contents](#contents)
 
 ## Future Features
 
@@ -265,7 +289,7 @@ The gamemodes I intend to add are listed below.
 
 In solo play, the player will play against a bot. This bot will be very basic to start with, and most likely play very random moves, but as time goes on, I plan on making this bot play close to grandmaster level. 
 
-[Back to Gamemodes](#gamemodes)  
+[Back to Gamemodes](#gamemodes-1)  
 [Back to Contents](#contents)
 
 ---
@@ -274,7 +298,7 @@ In solo play, the player will play against a bot. This bot will be very basic to
 
 To start off with, the multiplayer games will only be local multiplayer, meaning the people playing the game will have to share a screen to be able to play, and make moves on the same screen. As time goes on though, I'd look at the ability for users to play online multiplayer, so that players can test their skills against other players across the globe.
 
-[Back to Gamemodes](#gamemodes)  
+[Back to Gamemodes](#gamemodes-1)  
 [Back to Contents](#contents)
 
 ---
@@ -285,7 +309,7 @@ Practice play is something I plan on implementing once I'm able to provide the b
 
 With this feature, I hope to be able to also provide an explanation on the idea of each move that'd be played. For example, the sacrifice of a Queen leading to a checkmate, or moving a piece to a square that is being attacked, but can't be captured due to an xray attack on a higher value piece. I hope to be able to give players a much better understanding of how they can improve their strategy in chess, and maybe even have the ability to take on the best players in the World.
 
-[Back to Gamemodes](#gamemodes)  
+[Back to Gamemodes](#gamemodes-1)  
 [Back to Contents](#contents)
 
 ---
