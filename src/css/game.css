@@ -1,0 +1,17 @@
+.captured-material {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.captures {
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+    margin: 0 auto;
+}
+
+.captured-white-pieces,
+.captured-black-pieces {
+    display: flex;
+}
